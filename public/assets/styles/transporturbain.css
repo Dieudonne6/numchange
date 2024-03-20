@@ -1,0 +1,65 @@
+/* SECTION 1 */
+
+.sec1pTI{
+    background: white;
+    margin-top: 4rem;
+    height: auto;
+    box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.2);
+    text-align: justify;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.textsec1pTI{
+    padding-top: 20px;
+    text-align: justify;
+    margin: 1rem 2rem;
+}
+
+
+/* SECTION 2 */
+
+.sec2pTI{
+    background: white;
+    margin-top: 4rem;
+    height: auto;
+    /* box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.2); */
+    text-align: justify;
+    font-weight: bold;
+    /* border-radius: 10px; */
+}
+
+
+@media (max-width: 768px) {
+    /* Styles spécifiques aux écrans de téléphone */
+    .sec1pTI {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 700px) {
+    /* Styles spécifiques aux écrans de téléphone */
+    .sec1pTI {
+        margin-top: -5rem;
+    }
+}
+@media (max-width: 530px) {
+    /* Styles spécifiques aux écrans de téléphone */
+    .sec1pTI {
+        margin-top: -10rem;
+    }
+}
+
+@media (max-width: 385px) {
+    /* Styles spécifiques aux écrans de téléphone */
+    .sec1pTI {
+        margin-top: -15rem;
+    }
+
+}
+@media (max-width: 330px) {
+    /* Styles spécifiques aux écrans de téléphone */
+    .sec1pTI {
+        margin-top: -18rem;
+    }
+}

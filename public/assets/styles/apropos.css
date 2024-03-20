@@ -1,0 +1,227 @@
+/* SECTION 1 */
+
+/* .titre{
+    margin-left: 32rem;
+    padding-top: 20rem;
+    font-size: 80px;
+    font-weight: bold;
+} */
+
+.page{
+    overflow-x: hidden;
+}
+
+.sec1pA{
+    background: #0C5C36;
+    margin-top: 4rem;
+    height: auto;
+    /* box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.2); */
+    text-align: justify;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.textsec1pA{
+    /* padding-top: 20px; */
+    text-align: justify;
+    margin: 1rem 2rem;
+    color: white;
+}
+
+
+
+
+/* SECTION 2 */
+
+.titrePsec2pA{
+    /* margin-left: 35rem; */
+    margin-top: 4rem;
+    /* text-decoration: underline;
+    text-decoration-color: #116937; */
+    color: #0C5C36;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.sec2pA{
+    background: white;
+    margin-top: 4rem;
+    height: auto;
+    margin-bottom: 4rem;
+}
+
+.col1sec2pA{
+    height: auto;
+    border-radius: 8px;
+    background: white;
+    box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.2);
+    margin-left: 3.5rem;
+
+}
+.col2sec2pA{
+    height: auto;
+    border-radius: 8px;
+    background: white;
+    box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.2);
+    margin-left: 2rem;
+}
+
+
+.titresec2pA{
+    margin: 1rem 1rem;
+    font-weight: 500;
+}
+
+.textesec2pA{
+    padding-top: 20px;
+    text-align: justify;
+    margin: 0 1rem;
+}
+
+
+
+
+            @media (min-width: 1200px) {
+                /* Styles spécifiques aux écrans de largeur maximale de 767 pixels (téléphones) */
+                .divprincipale {
+                    background-size: cover;
+                    /* background-size: contain; */
+                    height: 700px; 
+                    /* width: auto; */
+                }
+            }
+            @media (max-width: 767px) {
+                /* Styles spécifiques aux écrans de largeur maximale de 767 pixels (téléphones) */
+                .divprincipale {
+                    background-size: contain;
+                    /* background-size: contain; */
+                    /* height: auto;  */
+                    /* width: auto; */
+                }
+            }
+            @media (max-width: 940px) {
+                /* Styles spécifiques aux écrans de largeur maximale de 767 pixels (téléphones) */
+                .titrePsec2pA{
+                    visibility: hidden;
+                    margin-top: -5rem;
+                }
+                .sec2pA {
+                    visibility: hidden;
+                    margin-top: -80rem;
+                }
+            }
+            @media (max-width: 768px) {
+                /* Styles spécifiques aux écrans de largeur maximale de 767 pixels (téléphones) */
+                .sec1pA{
+                    margin-top: -0.5rem;
+                }
+                .sec2pA {
+                    margin-top: -80rem;
+                }
+            }
+            @media (max-width: 700px) {
+                /* Styles spécifiques aux écrans de largeur maximale de 767 pixels (téléphones) */
+                .sec1pA{
+                    margin-top: -2rem;
+                }
+                /* .sec2pA {
+                    visibility: hidden;
+                    margin-top: -80rem;
+                } */
+            }
+            @media (max-width: 675px) {
+                /* Styles spécifiques aux écrans de largeur maximale de 767 pixels (téléphones) */
+                /* .sec1pA{
+                    margin-top: -2rem;
+                } */
+                .sec2pA {
+                    margin-top: -100rem;
+                }
+            }
+            @media (max-width: 655px) {
+                /* Styles spécifiques aux écrans de largeur maximale de 767 pixels (téléphones) */
+                .sec1pA{
+                    margin-top: -3rem;
+                }
+                /* .sec2pA {
+                    visibility: hidden;
+                    margin-top: -80rem;
+                } */
+            }
+            @media (max-width: 600px) {
+                /* Styles spécifiques aux écrans de largeur maximale de 767 pixels (téléphones) */
+                .sec1pA{
+                    margin-top: -9rem;
+                }
+                /* .sec2pA {
+                    visibility: hidden;
+                    margin-top: -80rem;
+                } */
+            }
+            @media (max-width: 570px) {
+                /* Styles spécifiques aux écrans de largeur maximale de 767 pixels (téléphones) */
+                /* .sec1pA{
+                    margin-top: -9rem;
+                } */
+                .sec2pA {
+                    margin-top: -120rem;
+                }
+            }
+            @media (max-width: 503px) {
+                /* Styles spécifiques aux écrans de largeur maximale de 767 pixels (téléphones) */
+                /* .sec1pA{
+                    margin-top: -9rem;
+                } */
+                .sec2pA {
+                    margin-top: -140rem;
+                }
+            }
+            @media (max-width: 500px) {
+                /* Styles spécifiques aux écrans de largeur maximale de 767 pixels (téléphones) */
+                .sec1pA{
+                    margin-top: -13rem;
+                }
+                /* .sec2pA {
+                    visibility: hidden;
+                    margin-top: -80rem;
+                } */
+            }
+            @media (max-width: 435px) {
+                /* Styles spécifiques aux écrans de largeur maximale de 767 pixels (téléphones) */
+                /* .sec1pA{
+                    margin-top: -9rem;
+                } */
+                .sec2pA {
+                    margin-top: -170rem;
+                }
+            }
+            @media (max-width: 430px) {
+                /* Styles spécifiques aux écrans de largeur maximale de 767 pixels (téléphones) */
+                .sec1pA{
+                    margin-top: -17rem;
+                }
+                /* .sec2pA {
+                    visibility: hidden;
+                    margin-top: -80rem;
+                } */
+            }
+            @media (max-width: 330px) {
+                /* Styles spécifiques aux écrans de largeur maximale de 767 pixels (téléphones) */
+                .sec1pA{
+                    margin-top: -20rem;
+                }
+                /* .sec2pA {
+                    visibility: hidden;
+                    margin-top: -80rem;
+                } */
+            }
+
+            @media (max-width: 310px) {
+                /* Styles spécifiques aux écrans de largeur maximale de 767 pixels (téléphones) */
+                /* .sec1pA{
+                    margin-top: -9rem;
+                } */
+                .sec2pA {
+                    margin-top: -190rem;
+                }
+            }
