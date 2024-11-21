@@ -20,4 +20,5 @@ use App\Http\Controllers\NumController;
 // });
 
 Route::get('/', [NumController::class, 'index']);
-Route::post('/convertnum', [NumController::class, 'convertnum']);
+// Route::post('/convertnum', [NumController::class, 'convertnum']);
+Route::post('/convert-contacts', [NumController::class, 'convertContacts'])->name('convert.contacts');
